@@ -8,7 +8,7 @@ It is highly recommended to use this minimal data dir rather than letting geoser
 This repository holds two branches:
  - ```master``` contains geoserver's minimal data dir, with a very light geOrchestra flavor:
    - [REST security](http://docs.geoserver.org/2.3.2/user/security/rest.html) configuration is updated so that members of ```SV_USER``` LDAP group have read access while members of ```SV_ADMINISTRATOR``` have write access,
-   - [Control Flow extension](http://docs.geoserver.org/2.3.2/user/extensions/controlflow/index.html) basic configuration is done
-   - the [monitoring extension](http://docs.geoserver.org/2.3.2/user/extensions/monitoring/index.html) is configured with the 'live' profile
-   - the integrated GeoWebCache has [directWMSIntegration](http://docs.geoserver.org/2.3.2/user/geowebcache/using.html#direct-integration-with-geoserver-wms) enabled
+   - [Control Flow extension](http://docs.geoserver.org/2.3.2/user/extensions/controlflow/index.html) basic configuration is done,
+   - the [monitoring extension](http://docs.geoserver.org/2.3.2/user/extensions/monitoring/index.html) is configured with the 'live' profile,
+   - the integrated GeoWebCache has [directWMSIntegration](http://docs.geoserver.org/2.3.2/user/geowebcache/using.html#direct-integration-with-geoserver-wms) enabled.
  - ```geofence``` is the same as master, but ```GeofenceAuthenticationProvider``` replaces GeoServer's own ```UsernamePasswordAuthenticationProvider``` class.
