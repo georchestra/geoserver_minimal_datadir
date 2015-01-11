@@ -4,6 +4,7 @@
         <role id="ADMIN"/>
         <role id="GROUP_ADMIN"/>
         <role id="ROLE_WFS_WRITE"/>
+        <role id="ROLE_NO_ONE"/>
     </roleList>
     <userList>
         <userRoles username="admin">
