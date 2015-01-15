@@ -6,7 +6,7 @@ This directory provides an empty GeoServer data directory, as such this director
 It is highly recommended to use this minimal data dir rather than letting geoserver create his own (see why in [issue 600](https://github.com/georchestra/georchestra/issues/600))
 
 This repository holds 4 branches:
- - ```master``` contains geoserver's minimal data dir, with a very light geOrchestra flavor:
+ - ```master``` contains geoserver 2.5.4 minimal data dir, with a very light geOrchestra flavor:
    - [REST security](http://docs.geoserver.org/2.3.2/user/security/rest.html) configuration is updated so that members of ```SV_*``` LDAP groups have read access while members of the ```ADMINISTRATOR``` group have write access,
    - [Control Flow extension](http://docs.geoserver.org/2.3.2/user/extensions/controlflow/index.html) basic configuration is done,
    - the [monitoring extension](http://docs.geoserver.org/2.3.2/user/extensions/monitoring/index.html) is configured with the 'live' profile,
