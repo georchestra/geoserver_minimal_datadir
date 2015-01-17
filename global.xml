@@ -1,5 +1,15 @@
 <global>
-  <contact/>
+  <settings>
+    <id>SettingsInfoImpl--cde8a83:14af8a9cd9b:-8000</id>
+    <contact/>
+    <charset>UTF-8</charset>
+    <numDecimals>6</numDecimals>
+    <onlineResource>http://geoserver.org</onlineResource>
+    <proxyBaseUrl>http://vm-georchestra/geoserver</proxyBaseUrl>
+    <verbose>false</verbose>
+    <verboseExceptions>false</verboseExceptions>
+    <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+  </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
     <recycling>false</recycling>
@@ -11,6 +21,7 @@
     <pngAcceleration>true</pngAcceleration>
     <jpegAcceleration>true</jpegAcceleration>
     <allowNativeMosaic>false</allowNativeMosaic>
+    <allowNativeWarp>false</allowNativeWarp>
   </jai>
   <coverageAccess>
     <maxPoolSize>10</maxPoolSize>
@@ -19,10 +30,9 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <charset>UTF-8</charset>
-  <numDecimals>8</numDecimals>
-  <onlineResource>http://geoserver.org</onlineResource>
-  <verbose>false</verbose>
-  <verboseExceptions>false</verboseExceptions>
   <updateSequence>0</updateSequence>
+  <featureTypeCacheSize>0</featureTypeCacheSize>
+  <globalServices>true</globalServices>
+  <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
+  <xmlExternalEntitiesEnabled>false</xmlExternalEntitiesEnabled>
 </global>
