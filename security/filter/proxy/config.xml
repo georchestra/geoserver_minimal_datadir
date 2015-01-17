@@ -2,7 +2,7 @@
   <id>-e3457ae:13cce0c47c6:-7fef</id>
   <name>proxy</name>
   <className>org.geoserver.security.filter.GeoServerRequestHeaderAuthenticationFilter</className>
-  <roleSource>Header</roleSource>
+  <roleSource class="org.geoserver.security.config.PreAuthenticatedUserNameFilterConfig$PreAuthenticatedUserNameRoleSource">Header</roleSource>
   <rolesHeaderAttribute>sec-roles</rolesHeaderAttribute>
   <principalHeaderAttribute>sec-username</principalHeaderAttribute>
 </requestHeaderAuthentication>
