@@ -1,5 +1,15 @@
 <global>
-  <contact/>
+  <settings>
+    <id>SettingsInfoImpl--cde8a83:14af8a9cd9b:-8000</id>
+    <contact/>
+    <charset>UTF-8</charset>
+    <numDecimals>6</numDecimals>
+    <onlineResource>http://geoserver.org</onlineResource>
+    <proxyBaseUrl>http://vm-georchestra/geoserver</proxyBaseUrl>
+    <verbose>false</verbose>
+    <verboseExceptions>false</verboseExceptions>
+    <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+  </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
     <recycling>false</recycling>
