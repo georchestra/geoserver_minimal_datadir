@@ -1,5 +1,5 @@
 <security>
-  <roleServiceName>default</roleServiceName>
+  <roleServiceName>my_ldap</roleServiceName>
   <authProviderNames>
     <string>default</string>
   </authProviderNames>
