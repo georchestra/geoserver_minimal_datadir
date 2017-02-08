@@ -1,0 +1,15 @@
+<layer>
+  <name>sdi</name>
+  <id>LayerInfoImpl-2b665931:15a1d6fbd50:-7ff5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-78ff667e:12476299803:-7ff9</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2b665931:15a1d6fbd50:-7ff6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
