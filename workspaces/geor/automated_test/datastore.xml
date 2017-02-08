@@ -1,14 +1,14 @@
 <dataStore>
   <id>DataStoreInfoImpl-2b665931:15a1d6fbd50:-7ff7</id>
   <name>automated_test</name>
-  <description>Dataset for automated test (please do not remove)</description>
-  <type>Shapefile</type>
+  <description>Datasets for automated tests (please do not remove)</description>
+  <type>Directory of spatial files (shapefiles)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-2b665931:15a1d6fbd50:-7ff9</id>
   </workspace>
   <connectionParameters>
-    <entry key="memory mapped buffer">false</entry>
+    <entry key="memory mapped buffer">true</entry>
     <entry key="timezone">Etc/UTC</entry>
     <entry key="fstype">shape</entry>
     <entry key="create spatial index">true</entry>
@@ -16,7 +16,7 @@
     <entry key="filetype">shapefile</entry>
     <entry key="enable spatial index">true</entry>
     <entry key="cache and reuse memory maps">true</entry>
-    <entry key="url">file:data/automated_test/sdi.shp</entry>
+    <entry key="url">file:data/automated_test</entry>
     <entry key="namespace">http://www.georchestra.org/geor</entry>
   </connectionParameters>
   <__default>false</__default>
