@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-2b665931:15a1d6fbd50:-7ff6</id>
-  <name>sdi</name>
-  <nativeName>sdi</nativeName>
+  <name>public_layer</name>
+  <nativeName>public_layer</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-2b665931:15a1d6fbd50:-7ff8</id>
   </namespace>
-  <title>sdi</title>
+  <title>public_layer</title>
   <keywords>
     <string>features</string>
-    <string>sdi</string>
+    <string>public_layer</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
