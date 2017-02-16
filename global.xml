@@ -8,6 +8,14 @@
     <proxyBaseUrl>https://georchestra.mydomain.org/geoserver</proxyBaseUrl>
     <verbose>false</verbose>
     <verboseExceptions>false</verboseExceptions>
+    <metadata>
+      <map>
+        <entry>
+          <string>quietOnNotFound</string>
+          <boolean>true</boolean>
+        </entry>
+      </map>
+    </metadata>
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
   </settings>
   <jai>
@@ -22,6 +30,7 @@
     <jpegAcceleration>true</jpegAcceleration>
     <allowNativeMosaic>false</allowNativeMosaic>
     <allowNativeWarp>false</allowNativeWarp>
+    <pngEncoderType>PNGJ</pngEncoderType>
   </jai>
   <coverageAccess>
     <maxPoolSize>10</maxPoolSize>
@@ -35,4 +44,5 @@
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
   <xmlExternalEntitiesEnabled>false</xmlExternalEntitiesEnabled>
+  <resourceErrorHandling>SKIP_MISCONFIGURED_LAYERS</resourceErrorHandling>
 </global>
