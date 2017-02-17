@@ -3,7 +3,7 @@
   <name>my_ldap</name>
   <className>org.geoserver.security.ldap.LDAPUserGroupService</className>
   <serverURL>ldap://localhost:389</serverURL>
-  <groupSearchBase>ou=roles,dc=georchestra,dc=org</groupSearchBase>
+  <groupSearchBase>ou=orgs,dc=georchestra,dc=org</groupSearchBase>
   <groupFilter>cn={0}</groupFilter>
   <allGroupsSearchFilter>objectClass=groupOfMembers</allGroupsSearchFilter>
   <groupSearchFilter>member=uid={0},ou=users,dc=georchestra,dc=org</groupSearchFilter>
