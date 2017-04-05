@@ -1,7 +1,7 @@
 GeoServer minimal "data dir"
 ============================
 
-This directory provides an empty GeoServer data directory, as such this directory does not contain any published data and is not subject to a data license.
+This directory provides a (nearly) empty GeoServer data directory with sensible defaults for geOrchestra.
 
 It is highly recommended to use this minimal data dir rather than letting geoserver create his own (see why in [issue 600](https://github.com/georchestra/georchestra/issues/600))
 
