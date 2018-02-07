@@ -1,4 +1,4 @@
-<org.geoserver.security.ldap.config.LDAPUserGroupServiceConfig>
+<org.geoserver.security.ldap.LDAPUserGroupServiceConfig>
   <id>52684add:153ae61eaf4:-7ff0</id>
   <name>my_ldap</name>
   <className>org.geoserver.security.ldap.LDAPUserGroupService</className>
@@ -15,4 +15,4 @@
   <password>secret</password>
   <passwordEncoderName>emptyPasswordEncoder</passwordEncoderName>
   <passwordPolicyName>default</passwordPolicyName>
-</org.geoserver.security.ldap.config.LDAPUserGroupServiceConfig>
+</org.geoserver.security.ldap.LDAPUserGroupServiceConfig>

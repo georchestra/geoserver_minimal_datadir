@@ -1,4 +1,4 @@
-<org.geoserver.security.ldap.config.LDAPRoleServiceConfig>
+<org.geoserver.security.ldap.LDAPRoleServiceConfig>
   <id>-189534bb:153ae737769:-7ff2</id>
   <name>my_ldap</name>
   <className>org.geoserver.security.ldap.LDAPRoleService</className>
@@ -10,4 +10,4 @@
   <bindBeforeGroupSearch>true</bindBeforeGroupSearch>
   <user>cn=admin,dc=georchestra,dc=org</user>
   <password>secret</password>
-</org.geoserver.security.ldap.config.LDAPRoleServiceConfig>
+</org.geoserver.security.ldap.LDAPRoleServiceConfig>
