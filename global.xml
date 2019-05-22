@@ -5,7 +5,7 @@
     <charset>UTF-8</charset>
     <numDecimals>6</numDecimals>
     <onlineResource>http://geoserver.org</onlineResource>
-    <proxyBaseUrl>https://georchestra.mydomain.org/geoserver</proxyBaseUrl>
+    <proxyBaseUrl>${X-Forwarded-Proto}://${X-Forwarded-Host}/geoserver</proxyBaseUrl>
     <verbose>false</verbose>
     <verboseExceptions>false</verboseExceptions>
     <metadata>
@@ -31,6 +31,32 @@
     <allowNativeMosaic>false</allowNativeMosaic>
     <allowNativeWarp>false</allowNativeWarp>
     <pngEncoderType>PNGJ</pngEncoderType>
+    <jaiext>
+      <jaiExtOperations class="sorted-set">
+        <string>Affine</string>
+        <string>BandCombine</string>
+        <string>BandMerge</string>
+        <string>BandSelect</string>
+        <string>Binarize</string>
+        <string>Border</string>
+        <string>ColorConvert</string>
+        <string>Crop</string>
+        <string>ErrorDiffusion</string>
+        <string>Format</string>
+        <string>ImageFunction</string>
+        <string>Lookup</string>
+        <string>Mosaic</string>
+        <string>Null</string>
+        <string>OrderedDither</string>
+        <string>Rescale</string>
+        <string>Scale</string>
+        <string>Stats</string>
+        <string>Translate</string>
+        <string>Warp</string>
+        <string>algebric</string>
+        <string>operationConst</string>
+      </jaiExtOperations>
+    </jaiext>
   </jai>
   <coverageAccess>
     <maxPoolSize>10</maxPoolSize>
@@ -42,7 +68,9 @@
   <updateSequence>0</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
+  <useHeadersProxyURL>true</useHeadersProxyURL>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
   <xmlExternalEntitiesEnabled>false</xmlExternalEntitiesEnabled>
+  <webUIMode>DEFAULT</webUIMode>
   <resourceErrorHandling>SKIP_MISCONFIGURED_LAYERS</resourceErrorHandling>
 </global>
