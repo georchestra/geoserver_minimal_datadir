@@ -1,0 +1,15 @@
+<gwcJdbcConfiguration>
+  <dialect>PostgreSQL</dialect>
+  <connectionPool>
+    <driver>org.postgresql.Driver</driver>
+    <url>jdbc:postgresql://database/georchestra?currentSchema=geowebcache</url>
+    <username>georchestra</username>
+    <password>georchestra</password>
+    <minConnections>1</minConnections>
+    <maxConnections>10</maxConnections>
+    <fetchSize>1000</fetchSize>
+    <connectionTimeout>50</connectionTimeout>
+    <validationQuery>select 1</validationQuery>
+    <maxOpenPreparedStatements>50</maxOpenPreparedStatements>
+  </connectionPool>
+</gwcJdbcConfiguration>
