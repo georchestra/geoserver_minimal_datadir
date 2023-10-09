@@ -1,5 +1,6 @@
 <gwcJdbcConfiguration>
   <dialect>PostgreSQL</dialect>
+  <JNDISource>jdbc/gwc</JNDISource>
   <connectionPool>
     <driver>org.postgresql.Driver</driver>
     <url>jdbc:postgresql://database/georchestra?currentSchema=geowebcache</url>
